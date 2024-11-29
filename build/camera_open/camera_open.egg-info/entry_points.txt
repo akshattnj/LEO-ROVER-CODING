@@ -1,0 +1,3 @@
+[console_scripts]
+color_detection = camera_open.color_detection:main
+
