@@ -2,19 +2,42 @@ import cv2
 import numpy as np
 import pyrealsense2 as rs
 
-# Define HSV color ranges for multiple colors
+# Define HSV color ranges for multiple colors (Now supports multiple HSV ranges per color)
 COLOR_RANGES = {
-    'Green': ((35, 100, 100), (85, 255, 255)),
-    'Red': ((0, 120, 70), (10, 255, 255)),  # Red (low range)
-    'Red2': ((170, 120, 70), (180, 255, 255)),  # Red (high range, to cover the HSV wraparound)
-    'Blue': ((100, 150, 100), (140, 255, 255)),
-    'Yellow': ((20, 100, 100), (30, 255, 255)),
-    'Purple': ((140, 50, 50), (160, 255, 255))
+    'Green': [((35, 100, 100), (85, 255, 255))],
+    'Red': [((0, 120, 70), (10, 255, 255)), ((170, 120, 70), (180, 255, 255))],  # Two HSV ranges for red
+    'Blue': [((100, 150, 100), (140, 255, 255))],
+    'Yellow': [((20, 100, 100), (30, 255, 255))],
+    'Purple': [((140, 50, 50), (160, 255, 255))],
+    'purple_shadow': [((104, 56, 43), (147, 158, 82))],
 }
+
+# Function to list available RealSense cameras
+def list_cameras():
+    ctx = rs.context()
+    devices = [d.get_info(rs.camera_info.serial_number) for d in ctx.devices]
+    return devices
+
+# Get available cameras
+available_cameras = list_cameras()
+if not available_cameras:
+    print("No RealSense cameras detected.")
+    exit()
+
+# Display camera options
+print("Available RealSense Cameras:")
+for i, cam in enumerate(available_cameras):
+    print(f"{i}: {cam}")
+
+# User selects a camera
+selected_index = int(input("Select a camera index: "))
+selected_camera = available_cameras[selected_index]
+print(f"Using camera: {selected_camera}")
 
 # Initialize RealSense pipeline
 pipeline = rs.pipeline()
 config = rs.config()
+config.enable_device(selected_camera)
 
 # Enable color and depth streams
 config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
@@ -49,14 +72,15 @@ try:
         hsv = cv2.cvtColor(color_image, cv2.COLOR_BGR2HSV)
 
         # Loop through each color range and detect objects
-        for color_name, (lower_bound, upper_bound) in COLOR_RANGES.items():
-            # Create a binary mask for the current color range
-            mask = cv2.inRange(hsv, np.array(lower_bound), np.array(upper_bound))
+        for color_name, hsv_ranges in COLOR_RANGES.items():
+            mask = np.zeros_like(hsv[:, :, 0], dtype=np.uint8)
 
-            # Handle the second red range
-            if color_name == 'Red':
-                red_high_mask = cv2.inRange(hsv, np.array(COLOR_RANGES['Red2'][0]), np.array(COLOR_RANGES['Red2'][1]))
-                mask = mask | red_high_mask  # Combine the two red ranges
+            # Loop through all HSV ranges for the same color
+            for lower_bound, upper_bound in hsv_ranges:
+                mask += cv2.inRange(hsv, np.array(lower_bound), np.array(upper_bound))
+
+            # Noise reduction using morphological operations
+            mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
 
             # Find contours for the mask
             contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
