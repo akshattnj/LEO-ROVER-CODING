@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import pyrealsense2 as rs
+import time
 
 # Define HSV color ranges for multiple colors (Now supports multiple HSV ranges per color)
 COLOR_RANGES = {
@@ -8,13 +9,7 @@ COLOR_RANGES = {
     'Red': [((0, 120, 70), (10, 255, 255)), ((170, 120, 70), (180, 255, 255))],  # Two HSV ranges for red
     'Blue': [((100, 150, 100), (140, 255, 255))],
     'Yellow': [((20, 100, 100), (30, 255, 255))],
-    #'Purple': [((140, 50, 50), (160, 255, 255))],
     'purple': [((105, 119, 39), (137, 195, 112)), ((107, 51, 91), (133, 174, 204)), ((104, 51, 27), (146, 131, 121))],
-    #'lightblue': ['''((11, 51, 33), (125, 181, 255)),''' ((91, 98, 127), (103, 255, 255)), ((93, 181, 48), (104, 255, 135))],
-    #'lightblue': [((90, 200, 28), (107, 255, 145)), ((88, 52, 140), (104, 255, 255)), ((2, 51, 30), (179, 213, 255))],
-    #'abc': [((176, 51, 122), (179, 63, 134)), ((0, 51, 114), (4, 67, 136)), ((175, 51, 134), (179, 55, 146))],
-    #'purple_shadow': [((104, 56, 43), (147, 158, 82))],
-    #'pink': [((101, 51, 47), (179, 126, 159)), ((103, 51, 147), (176, 101, 233)), ((0, 51, 40), (102, 122, 126))]
 }
 
 # Function to list available RealSense cameras
@@ -55,6 +50,17 @@ pipeline.start(config)
 align_to = rs.stream.color
 align = rs.align(align_to)
 
+# Get depth sensor intrinsics (needed for 3D coordinate conversion)
+profile = pipeline.get_active_profile()
+depth_sensor = profile.get_device().first_depth_sensor()
+depth_scale = depth_sensor.get_depth_scale()
+color_intrinsics = profile.get_stream(rs.stream.color).as_video_stream_profile().get_intrinsics()
+
+def deproject_pixel_to_point(intrinsics, pixel, depth):
+    return rs.rs2_deproject_pixel_to_point(intrinsics, pixel, depth)
+
+last_print_time = time.time()
+
 try:
     while True:
         # Wait for frames
@@ -75,6 +81,8 @@ try:
 
         # Convert color image to HSV
         hsv = cv2.cvtColor(color_image, cv2.COLOR_BGR2HSV)
+
+        detected_objects = []
 
         # Loop through each color range and detect objects
         for color_name, hsv_ranges in COLOR_RANGES.items():
@@ -105,13 +113,24 @@ try:
                     # Get the HSV value at the center of the object
                     hsv_value = hsv[center_y, center_x]
 
+                    # Convert to 3D coordinates (w.r.t. camera frame)
+                    camera_coordinates = deproject_pixel_to_point(color_intrinsics, [center_x, center_y], distance)
+                    x_3d, y_3d, z_3d = camera_coordinates
+                    detected_objects.append(f"{color_name}: 3D Coordinates = ({x_3d:.2f}, {y_3d:.2f}, {z_3d:.2f})")
+
                     # Draw a rectangle around the detected object
                     cv2.rectangle(color_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-                    # Overlay the color name, distance, and HSV value
-                    label = f"{color_name}: {distance:.2f} m, HSV: {hsv_value}"
+                    # Overlay the color name, distance, HSV value, and 3D coordinates
+                    label = (f"{color_name}: {distance:.2f} m, HSV: {hsv_value}, "
+                             f"3D: ({x_3d:.2f}, {y_3d:.2f}, {z_3d:.2f})")
                     cv2.putText(color_image, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
-
+        
+        if time.time() - last_print_time >= 3:
+            for obj in detected_objects:
+                print(obj)
+            last_print_time = time.time()
+        
         # Display the image
         cv2.imshow("Multi-Color Detection with Distance and HSV", color_image)
 
