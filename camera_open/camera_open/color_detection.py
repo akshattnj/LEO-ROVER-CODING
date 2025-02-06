@@ -2,6 +2,9 @@ import cv2
 import numpy as np
 import pyrealsense2 as rs
 import time
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
 
 # Define HSV color ranges for multiple colors (Now supports multiple HSV ranges per color)
 COLOR_RANGES = {
@@ -11,6 +14,17 @@ COLOR_RANGES = {
     'Yellow': [((20, 100, 100), (30, 255, 255))],
     'purple': [((105, 119, 39), (137, 195, 112)), ((107, 51, 91), (133, 174, 204)), ((104, 51, 27), (146, 131, 121))],
 }
+
+class CoordinatePublisher(Node):
+    def __init__(self):
+        super().__init__('coordinate_publisher')
+        self.publisher_ = self.create_publisher(String, 'object_coordinates', 10)
+
+    def publish_coordinates(self, message):
+        msg = String()
+        msg.data = message
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Published: {msg.data}')
 
 # Function to list available RealSense cameras
 def list_cameras():
@@ -33,6 +47,10 @@ for i, cam in enumerate(available_cameras):
 selected_index = int(input("Select a camera index: "))
 selected_camera = available_cameras[selected_index]
 print(f"Using camera: {selected_camera}")
+
+# Initialize ROS2 node
+rclpy.init()
+node = CoordinatePublisher()
 
 # Initialize RealSense pipeline
 pipeline = rs.pipeline()
@@ -129,6 +147,7 @@ try:
         if time.time() - last_print_time >= 3:
             for obj in detected_objects:
                 print(obj)
+                node.publish_coordinates(obj)
             last_print_time = time.time()
         
         # Display the image
@@ -141,4 +160,5 @@ try:
 finally:
     # Stop the pipeline
     pipeline.stop()
+    rclpy.shutdown()
     cv2.destroyAllWindows()
