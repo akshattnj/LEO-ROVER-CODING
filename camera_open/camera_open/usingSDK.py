@@ -1,61 +1,20 @@
 import cv2
 import numpy as np
-# import pyrealsense2 as rs
+import pyrealsense2 as rs
 import time
-import rclpy
-from rclpy.node import Node
-from std_msgs.msg import String
 
-# Define HSV color ranges for multiple colors (Now supports multiple HSV ranges per color)
+# Define HSV color ranges for multiple colors (Supports multiple HSV ranges per color)
 COLOR_RANGES = {
     'Green': [((35, 100, 100), (85, 255, 255))],
     'Red': [((0, 120, 70), (10, 255, 255)), ((170, 120, 70), (180, 255, 255))],  # Two HSV ranges for red
     'Blue': [((100, 150, 100), (140, 255, 255))],
     'Yellow': [((20, 100, 100), (30, 255, 255))],
-    'purple': [((105, 119, 39), (137, 195, 112)), ((107, 51, 91), (133, 174, 204)), ((104, 51, 27), (146, 131, 121))],
+    'Purple': [((105, 119, 39), (137, 195, 112)), ((107, 51, 91), (133, 174, 204)), ((104, 51, 27), (146, 131, 121))]
 }
-
-class CoordinatePublisher(Node):
-    def __init__(self):
-        super().__init__('coordinate_publisher')
-        self.publisher_ = self.create_publisher(String, 'object_coordinates', 10)
-
-    def publish_coordinates(self, message):
-        msg = String()
-        msg.data = message
-        self.publisher_.publish(msg)
-        self.get_logger().info(f'Published: {msg.data}')
-
-# Function to list available RealSense cameras
-def list_cameras():
-    ctx = rs.context()
-    devices = [d.get_info(rs.camera_info.serial_number) for d in ctx.devices]
-    return devices
-
-# Get available cameras
-available_cameras = list_cameras()
-if not available_cameras:
-    print("No RealSense cameras detected.")
-    exit()
-
-# Display camera options
-print("Available RealSense Cameras:")
-for i, cam in enumerate(available_cameras):
-    print(f"{i}: {cam}")
-
-# User selects a camera
-selected_index = int(input("Select a camera index: "))
-selected_camera = available_cameras[selected_index]
-print(f"Using camera: {selected_camera}")
-
-# Initialize ROS2 node
-rclpy.init()
-node = CoordinatePublisher()
 
 # Initialize RealSense pipeline
 pipeline = rs.pipeline()
 config = rs.config()
-config.enable_device(selected_camera)
 
 # Enable color and depth streams
 config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
@@ -74,8 +33,16 @@ depth_sensor = profile.get_device().first_depth_sensor()
 depth_scale = depth_sensor.get_depth_scale()
 color_intrinsics = profile.get_stream(rs.stream.color).as_video_stream_profile().get_intrinsics()
 
+# Initialize point cloud processing
+pc = rs.pointcloud()
+
+# Function to deproject pixel to 3D point
 def deproject_pixel_to_point(intrinsics, pixel, depth):
     return rs.rs2_deproject_pixel_to_point(intrinsics, pixel, depth)
+
+# Function to convert BGR to HEX
+def bgr_to_hex(bgr):
+    return "#{:02X}{:02X}{:02X}".format(bgr[2], bgr[1], bgr[0])
 
 last_print_time = time.time()
 
@@ -128,30 +95,38 @@ try:
                     # Get the depth value (distance) at the center of the object
                     distance = depth_frame.get_distance(center_x, center_y)
 
-                    # Get the HSV value at the center of the object
+                    # Get the HSV value and convert to HEX
                     hsv_value = hsv[center_y, center_x]
+                    bgr_value = color_image[center_y, center_x]
+                    hex_color = bgr_to_hex(bgr_value)
 
                     # Convert to 3D coordinates (w.r.t. camera frame)
                     camera_coordinates = deproject_pixel_to_point(color_intrinsics, [center_x, center_y], distance)
                     x_3d, y_3d, z_3d = camera_coordinates
-                    detected_objects.append(f"{color_name}: 3D Coordinates = ({x_3d:.2f}, {y_3d:.2f}, {z_3d:.2f})")
+                    detected_objects.append(f"{color_name}: HEX={hex_color} 3D Coordinates = ({x_3d:.2f}, {y_3d:.2f}, {z_3d:.2f})")
 
                     # Draw a rectangle around the detected object
-                    cv2.rectangle(color_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                    cv2.rectangle(color_image, (x, y), (x + w, y + h), (255, 0, 255), 2)  # Purple box
 
-                    # Overlay the color name, distance, HSV value, and 3D coordinates
-                    label = (f"{color_name}: {distance:.2f} m, HSV: {hsv_value}, "
+                    # Create a filled mask overlay in purple
+                    overlay = color_image.copy()
+                    cv2.drawContours(overlay, [contour], -1, (255, 0, 255), thickness=cv2.FILLED)
+                    alpha = 0.4  # Transparency
+                    color_image = cv2.addWeighted(overlay, alpha, color_image, 1 - alpha, 0)
+
+                    # Overlay the color name, hex value, distance, and 3D coordinates
+                    label = (f"{color_name} | HEX: {hex_color} | Dist: {distance:.2f}m | "
                              f"3D: ({x_3d:.2f}, {y_3d:.2f}, {z_3d:.2f})")
-                    cv2.putText(color_image, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
-        
+                    cv2.putText(color_image, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 255), 2)
+
+        # Periodically print detected object info
         if time.time() - last_print_time >= 3:
             for obj in detected_objects:
                 print(obj)
-                node.publish_coordinates(obj)
             last_print_time = time.time()
-        
+
         # Display the image
-        cv2.imshow("Multi-Color Detection with Distance and HSV", color_image)
+        cv2.imshow("Object Detection with 3D Coordinates & HEX", color_image)
 
         # Exit on 'q' key press
         if cv2.waitKey(1) & 0xFF == ord('q'):
@@ -160,5 +135,4 @@ try:
 finally:
     # Stop the pipeline
     pipeline.stop()
-    rclpy.shutdown()
     cv2.destroyAllWindows()

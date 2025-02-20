@@ -10,6 +10,8 @@ setup.py
 ../build/camera_open/camera_open.egg-info/zip-safe
 camera_open/__init__.py
 camera_open/color_detection.py
+camera_open/node2.py
+camera_open/self_train_kMeans.py
 resource/camera_open
 test/test_copyright.py
 test/test_flake8.py

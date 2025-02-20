@@ -1,0 +1,30 @@
+[0.501s] Invoking command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/camera_open': PYTHONPATH=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_open build --build-base /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build install --record /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/install.log --single-version-externally-managed install_data
+[0.655s] running egg_info
+[0.655s] writing ../build/camera_open/camera_open.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../build/camera_open/camera_open.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../build/camera_open/camera_open.egg-info/entry_points.txt
+[0.655s] writing requirements to ../build/camera_open/camera_open.egg-info/requires.txt
+[0.656s] writing top-level names to ../build/camera_open/camera_open.egg-info/top_level.txt
+[0.658s] reading manifest file '../build/camera_open/camera_open.egg-info/SOURCES.txt'
+[0.660s] writing manifest file '../build/camera_open/camera_open.egg-info/SOURCES.txt'
+[0.660s] running build
+[0.660s] running build_py
+[0.660s] copying camera_open/node2.py -> /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build/lib/camera_open
+[0.660s] copying camera_open/self_train_kMeans.py -> /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build/lib/camera_open
+[0.660s] copying camera_open/color_detection.py -> /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build/lib/camera_open
+[0.660s] running install
+[0.661s] running install_lib
+[0.662s] copying /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build/lib/camera_open/node2.py -> /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open
+[0.662s] copying /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build/lib/camera_open/self_train_kMeans.py -> /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open
+[0.662s] copying /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build/lib/camera_open/color_detection.py -> /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open
+[0.662s] byte-compiling /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open/node2.py to node2.cpython-310.pyc
+[0.663s] byte-compiling /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open/self_train_kMeans.py to self_train_kMeans.cpython-310.pyc
+[0.664s] byte-compiling /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open/color_detection.py to color_detection.cpython-310.pyc
+[0.666s] running install_data
+[0.666s] running install_egg_info
+[0.669s] removing '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open-0.0.0-py3.10.egg-info' (and everything under it)
+[0.669s] Copying ../build/camera_open/camera_open.egg-info to /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages/camera_open-0.0.0-py3.10.egg-info
+[0.672s] running install_scripts
+[0.692s] Installing color_detection script to /home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/camera_open
+[0.692s] writing list of installed files to '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/install.log'
+[0.711s] Invoked command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/camera_open' returned '0': PYTHONPATH=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/camera_open/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_open build --build-base /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/build install --record /home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/camera_open/install.log --single-version-externally-managed install_data
