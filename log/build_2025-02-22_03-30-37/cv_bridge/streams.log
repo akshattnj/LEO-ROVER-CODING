@@ -1,0 +1,15 @@
+[0.023s] Invoking command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge
+[0.433s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.433s] -- Configuring incomplete, errors occurred!
+[0.433s] See also "/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge/CMakeFiles/CMakeOutput.log".
+[0.433s] [31mCMake Error at /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[0.433s]   Could NOT find Python3 (missing: Python3_NumPy_INCLUDE_DIRS NumPy) (found
+[0.434s]   version "3.13.0")
+[0.434s] Call Stack (most recent call first):
+[0.434s]   /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+[0.434s]   /usr/share/cmake-3.25/Modules/FindPython/Support.cmake:3245 (find_package_handle_standard_args)
+[0.434s]   /usr/share/cmake-3.25/Modules/FindPython3.cmake:490 (include)
+[0.434s]   CMakeLists.txt:25 (find_package)
+[0.435s] 
+[0.435s] [0m
+[0.439s] Invoked command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge

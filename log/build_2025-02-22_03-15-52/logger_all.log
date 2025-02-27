@@ -1,0 +1,159 @@
+[0.181s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cv_bridge']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cv_bridge'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x764ce6f872e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764ce70cc880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764ce70cc880>>, mixin_verb=('build',))
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.392s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(camera_open) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'camera_open' with type 'ros.ament_python' and name 'camera_open'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'ros'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'python'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extensions ['python_setup_py']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv) by extension 'python_setup_py'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/cv_bridge) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/image_geometry) by extension 'ros'
+[0.411s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/opencv_tests) by extension 'ros'
+[0.413s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(vision_opencv/vision_opencv) by extension 'ros'
+[0.414s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.443s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_open' in 'camera_open'
+[0.443s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_geometry' in 'vision_opencv/image_geometry'
+[0.443s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'opencv_tests' in 'vision_opencv/opencv_tests'
+[0.443s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_opencv' in 'vision_opencv/vision_opencv'
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge', 'merge_install': False, 'path': '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.524s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[0.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge'
+[0.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge
+[1.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge
+[1.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge' for CMake module files
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge' for CMake config files
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/bin'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/lib/python3.10/site-packages'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/bin'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/share/cv_bridge/package.ps1'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/share/cv_bridge/package.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/share/cv_bridge/package.sh'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/share/cv_bridge/package.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/share/cv_bridge/package.zsh'
+[1.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[1.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.697s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.718s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/local_setup.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/_local_setup_util_ps1.py'
+[1.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/setup.ps1'
+[1.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/local_setup.sh'
+[1.730s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/_local_setup_util_sh.py'
+[1.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/setup.sh'
+[1.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/local_setup.bash'
+[1.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/setup.bash'
+[1.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/local_setup.zsh'
+[1.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/setup.zsh'

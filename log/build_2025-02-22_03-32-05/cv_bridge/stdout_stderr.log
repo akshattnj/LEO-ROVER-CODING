@@ -1,0 +1,13 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[31mCMake Error at /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Python3 (missing: Python3_NumPy_INCLUDE_DIRS NumPy) (found
+  version "3.13.0")
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-3.25/Modules/FindPython/Support.cmake:3245 (find_package_handle_standard_args)
+  /usr/share/cmake-3.25/Modules/FindPython3.cmake:490 (include)
+  CMakeLists.txt:25 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge/CMakeFiles/CMakeOutput.log".

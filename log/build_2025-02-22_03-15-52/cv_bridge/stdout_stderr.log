@@ -1,0 +1,26 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /home/linuxbrew/.linuxbrew/bin/python3 (found version "3.13.0") found components: Interpreter 
+[31mCMake Error at /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Python3 (missing: Python3_NumPy_INCLUDE_DIRS NumPy) (found
+  version "3.13.0")
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-3.25/Modules/FindPython/Support.cmake:3245 (find_package_handle_standard_args)
+  /usr/share/cmake-3.25/Modules/FindPython3.cmake:490 (include)
+  CMakeLists.txt:25 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge/CMakeFiles/CMakeOutput.log".

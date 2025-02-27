@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.284s] -- The CXX compiler identification is GNU 11.4.0
+[0.300s] -- Detecting C compiler ABI info
+[0.410s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.531s] -- Detecting CXX compiler ABI info - done
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.543s] -- Detecting CXX compile features
+[0.543s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.752s] -- Found Python3: /home/linuxbrew/.linuxbrew/bin/python3 (found version "3.13.0") found components: Interpreter 
+[1.113s] [31mCMake Error at /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[1.114s]   Could NOT find Python3 (missing: Python3_NumPy_INCLUDE_DIRS NumPy) (found
+[1.114s]   version "3.13.0")
+[1.114s] Call Stack (most recent call first):
+[1.114s]   /usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+[1.114s]   /usr/share/cmake-3.25/Modules/FindPython/Support.cmake:3245 (find_package_handle_standard_args)
+[1.114s]   /usr/share/cmake-3.25/Modules/FindPython3.cmake:490 (include)
+[1.114s]   CMakeLists.txt:25 (find_package)
+[1.114s] 
+[1.115s] [0m
+[1.115s] -- Configuring incomplete, errors occurred!
+[1.115s] See also "/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge/CMakeFiles/CMakeOutput.log".
+[1.123s] Invoked command in '/home/mscrobotics2425laptop36/LEO-ROVER-CODING/build/cv_bridge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop36/LEO-ROVER-CODING/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop36/LEO-ROVER-CODING/install/cv_bridge
