@@ -1,0 +1,84 @@
+[0.033s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.329s] -- Detecting C compiler ABI info
+[0.462s] -- Detecting C compiler ABI info - done
+[0.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.475s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.625s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.644s] -- Detecting CXX compile features
+[0.644s] -- Detecting CXX compile features - done
+[0.652s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.977s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.206s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.211s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.331s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.346s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.368s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.533s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.538s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.729s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.799s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.939s] -- Looking for pthread.h
+[2.083s] -- Looking for pthread.h - found
+[2.085s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.258s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.262s] -- Found Threads: TRUE  
+[2.366s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[2.368s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.421s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.480s] -- Found interbotix_xs_msgs: 0.0.0 (/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+[2.539s] -- Found interbotix_xs_driver: 0.3.7 (/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/share/interbotix_xs_driver/cmake)
+[2.551s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.803s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.806s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.806s] -- Configured cppcheck include dirs: /home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk/include
+[2.806s] -- Configured cppcheck exclude dirs and/or files: 
+[2.809s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.809s] -- Configured cpplint exclude dirs and/or files: 
+[2.810s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.811s] -- Added test 'lint_cmake' to check CMake code style
+[2.812s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.814s] -- Added test 'uncrustify' to check C / C++ code style
+[2.815s] -- Configured uncrustify additional arguments: 
+[2.816s] -- Added test 'xmllint' to check XML markup files
+[2.823s] -- Configuring done
+[2.871s] -- Generating done
+[2.880s] -- Build files have been written to: /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk
+[2.904s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk
+[2.910s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk -- -j12 -l12
+[3.027s] [ 33%] [32mBuilding CXX object CMakeFiles/xs_sdk.dir/src/xs_sdk_obj.cpp.o[0m
+[3.034s] [ 66%] [32mBuilding CXX object CMakeFiles/xs_sdk.dir/src/xs_sdk.cpp.o[0m
+[38.528s] [100%] [32m[1mLinking CXX executable xs_sdk[0m
+[39.963s] [100%] Built target xs_sdk
+[39.985s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk -- -j12 -l12
+[39.987s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk
+[40.000s] -- Install configuration: ""
+[40.000s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/lib/interbotix_xs_sdk/xs_sdk
+[40.008s] -- Set runtime path of "/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/lib/interbotix_xs_sdk/xs_sdk" to ""
+[40.008s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/lib/interbotix_xs_sdk/xs_sdk_sim.py
+[40.009s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk//config
+[40.009s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk//config/mode_configs_template.yaml
+[40.009s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk//config/motor_configs_template.yaml
+[40.010s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_sdk
+[40.010s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_sdk
+[40.011s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/ament_prefix_path.sh
+[40.011s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/ament_prefix_path.dsv
+[40.011s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/path.sh
+[40.011s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/environment/path.dsv
+[40.011s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.bash
+[40.011s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.sh
+[40.012s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.zsh
+[40.012s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/local_setup.dsv
+[40.012s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/package.dsv
+[40.012s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/ament_index/resource_index/packages/interbotix_xs_sdk
+[40.012s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/cmake/interbotix_xs_sdkConfig.cmake
+[40.012s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/cmake/interbotix_xs_sdkConfig-version.cmake
+[40.012s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/package.xml
+[40.015s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_sdk

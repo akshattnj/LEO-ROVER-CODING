@@ -1,0 +1,9 @@
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/uninstall.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/interbotix_xsarm_perception_uninstall.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/test.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/edit_cache.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/rebuild_cache.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/list_install_components.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/install.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/install/local.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_perception/CMakeFiles/install/strip.dir

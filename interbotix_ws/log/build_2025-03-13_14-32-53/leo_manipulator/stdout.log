@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/leo_manipulator/leo_manipulator.egg-info/PKG-INFO
+writing dependency_links to ../../build/leo_manipulator/leo_manipulator.egg-info/dependency_links.txt
+writing entry points to ../../build/leo_manipulator/leo_manipulator.egg-info/entry_points.txt
+writing requirements to ../../build/leo_manipulator/leo_manipulator.egg-info/requires.txt
+writing top-level names to ../../build/leo_manipulator/leo_manipulator.egg-info/top_level.txt
+reading manifest file '../../build/leo_manipulator/leo_manipulator.egg-info/SOURCES.txt'
+writing manifest file '../../build/leo_manipulator/leo_manipulator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying leo_manipulator/manipulator_node.py -> /home/mscrobotics2425laptop4/interbotix_ws/build/leo_manipulator/build/lib/leo_manipulator
+running install
+running install_lib
+copying /home/mscrobotics2425laptop4/interbotix_ws/build/leo_manipulator/build/lib/leo_manipulator/manipulator_node.py -> /home/mscrobotics2425laptop4/interbotix_ws/install/leo_manipulator/lib/python3.10/site-packages/leo_manipulator
+byte-compiling /home/mscrobotics2425laptop4/interbotix_ws/install/leo_manipulator/lib/python3.10/site-packages/leo_manipulator/manipulator_node.py to manipulator_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mscrobotics2425laptop4/interbotix_ws/install/leo_manipulator/lib/python3.10/site-packages/leo_manipulator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/leo_manipulator/leo_manipulator.egg-info to /home/mscrobotics2425laptop4/interbotix_ws/install/leo_manipulator/lib/python3.10/site-packages/leo_manipulator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing manipulator_node script to /home/mscrobotics2425laptop4/interbotix_ws/install/leo_manipulator/lib/leo_manipulator
+writing list of installed files to '/home/mscrobotics2425laptop4/interbotix_ws/build/leo_manipulator/install.log'

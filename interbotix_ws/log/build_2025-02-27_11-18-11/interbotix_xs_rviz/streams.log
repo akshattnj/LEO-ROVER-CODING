@@ -1,0 +1,130 @@
+[0.535s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz
+[0.653s] -- The C compiler identification is GNU 11.4.0
+[0.751s] -- The CXX compiler identification is GNU 11.4.0
+[0.771s] -- Detecting C compiler ABI info
+[0.911s] -- Detecting C compiler ABI info - done
+[0.922s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.922s] -- Detecting C compile features
+[0.923s] -- Detecting C compile features - done
+[0.927s] -- Detecting CXX compiler ABI info
+[1.056s] -- Detecting CXX compiler ABI info - done
+[1.084s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.085s] -- Detecting CXX compile features
+[1.086s] -- Detecting CXX compile features - done
+[1.090s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.544s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.630s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.684s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.695s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.712s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.855s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.863s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.907s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.003s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.006s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.025s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.029s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.040s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.089s] -- Looking for pthread.h
+[2.215s] -- Looking for pthread.h - found
+[2.215s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.343s] -- Found Threads: TRUE  
+[2.447s] -- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)
+[2.457s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.477s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.479s] -- Found OGRE
+[2.480s] --   static     : OFF
+[2.480s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.480s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.480s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.481s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.481s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.481s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.481s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.481s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.481s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.481s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.481s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.503s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.509s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.644s] -- Found X11: /usr/include   
+[2.644s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.766s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.769s] -- Looking for gethostbyname
+[2.894s] -- Looking for gethostbyname - found
+[2.895s] -- Looking for connect
+[3.001s] -- Looking for connect - found
+[3.001s] -- Looking for remove
+[3.120s] -- Looking for remove - found
+[3.120s] -- Looking for shmat
+[3.312s] -- Looking for shmat - found
+[3.313s] -- Looking for IceConnectionNumber in ICE
+[3.430s] -- Looking for IceConnectionNumber in ICE - found
+[3.583s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.645s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.646s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.804s] -- Found interbotix_xs_msgs: 0.0.0 (/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+[3.851s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.997s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.999s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.999s] -- Configured cppcheck include dirs: /home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz/include
+[3.999s] -- Configured cppcheck exclude dirs and/or files: 
+[4.000s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.000s] -- Configured cpplint exclude dirs and/or files: 
+[4.001s] -- Added test 'lint_cmake' to check CMake code style
+[4.003s] -- Added test 'uncrustify' to check C / C++ code style
+[4.003s] -- Configured uncrustify additional arguments: 
+[4.003s] -- Added test 'xmllint' to check XML markup files
+[4.005s] -- Configuring done
+[4.044s] -- Generating done
+[4.049s] -- Build files have been written to: /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz
+[4.078s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz
+[4.080s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz -- -j12 -l12
+[4.161s] [ 20%] [34m[1mAutomatic MOC for target interbotix_xs_rviz[0m
+[4.846s] [ 20%] Built target interbotix_xs_rviz_autogen
+[4.869s] [ 40%] [34m[1mGenerating ui_interbotix_control_panel.h[0m
+[4.930s] [ 60%] [32mBuilding CXX object CMakeFiles/interbotix_xs_rviz.dir/interbotix_xs_rviz_autogen/mocs_compilation.cpp.o[0m
+[4.935s] [ 80%] [32mBuilding CXX object CMakeFiles/interbotix_xs_rviz.dir/src/interbotix_control_panel.cpp.o[0m
+[28.996s] [100%] [32m[1mLinking CXX shared library libinterbotix_xs_rviz.so[0m
+[31.642s] [100%] Built target interbotix_xs_rviz
+[31.664s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz -- -j12 -l12
+[31.667s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz
+[31.680s] -- Install configuration: ""
+[31.680s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/plugin_description.xml
+[31.681s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/lib/libinterbotix_xs_rviz.so
+[31.687s] -- Set runtime path of "/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/lib/libinterbotix_xs_rviz.so" to ""
+[31.688s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/include/
+[31.688s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz
+[31.689s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/xs_register_descriptions.hpp
+[31.690s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/interbotix_control_panel.hpp
+[31.691s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons
+[31.691s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons/classes
+[31.691s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons/classes/Interbotix Control Panel.png
+[31.691s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.sh
+[31.691s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.dsv
+[31.692s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_rviz
+[31.692s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_rviz
+[31.692s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.sh
+[31.693s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.dsv
+[31.693s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.sh
+[31.693s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.dsv
+[31.693s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.bash
+[31.694s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.sh
+[31.694s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.zsh
+[31.694s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.dsv
+[31.695s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.dsv
+[31.695s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/packages/interbotix_xs_rviz
+[31.696s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/interbotix_xs_rviz
+[31.698s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizExport.cmake
+[31.698s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizExport-noconfig.cmake
+[31.699s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[31.699s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.699s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig.cmake
+[31.699s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig-version.cmake
+[31.700s] -- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.xml
+[31.700s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_sdk:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox:/home/mscrobotics2425laptop4/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_driver/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/lib:/home/mscrobotics2425laptop4/interbotix_ws/install/dynamixel_workbench_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_rviz

@@ -1,0 +1,2 @@
+source;share/interbotix_xsarm_puppet/environment/ament_prefix_path.sh
+source;share/interbotix_xsarm_puppet/environment/path.sh

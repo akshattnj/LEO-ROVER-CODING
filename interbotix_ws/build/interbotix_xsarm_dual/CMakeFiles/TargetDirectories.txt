@@ -1,0 +1,9 @@
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/uninstall.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/interbotix_xsarm_dual_uninstall.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/test.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/edit_cache.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/rebuild_cache.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/list_install_components.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/install.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/install/local.dir
+/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xsarm_dual/CMakeFiles/install/strip.dir

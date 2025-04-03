@@ -1,0 +1,21 @@
+[1.827s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/src/leo_launch': PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/build/leo_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/interbotix_ws/install/leo_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leo_launch build --build-base /home/mscrobotics2425laptop4/interbotix_ws/build/leo_launch/build install --record /home/mscrobotics2425laptop4/interbotix_ws/build/leo_launch/install.log --single-version-externally-managed install_data
+[2.082s] running egg_info
+[2.083s] writing ../../build/leo_launch/leo_launch.egg-info/PKG-INFO
+[2.083s] writing dependency_links to ../../build/leo_launch/leo_launch.egg-info/dependency_links.txt
+[2.083s] writing entry points to ../../build/leo_launch/leo_launch.egg-info/entry_points.txt
+[2.083s] writing requirements to ../../build/leo_launch/leo_launch.egg-info/requires.txt
+[2.083s] writing top-level names to ../../build/leo_launch/leo_launch.egg-info/top_level.txt
+[2.085s] reading manifest file '../../build/leo_launch/leo_launch.egg-info/SOURCES.txt'
+[2.086s] writing manifest file '../../build/leo_launch/leo_launch.egg-info/SOURCES.txt'
+[2.087s] running build
+[2.087s] running build_py
+[2.087s] running install
+[2.087s] running install_lib
+[2.089s] running install_data
+[2.089s] copying launch/leo_startup.launch.py -> /home/mscrobotics2425laptop4/interbotix_ws/install/leo_launch/share/leo_launch/launch
+[2.089s] running install_egg_info
+[2.092s] removing '/home/mscrobotics2425laptop4/interbotix_ws/install/leo_launch/lib/python3.10/site-packages/leo_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[2.092s] Copying ../../build/leo_launch/leo_launch.egg-info to /home/mscrobotics2425laptop4/interbotix_ws/install/leo_launch/lib/python3.10/site-packages/leo_launch-0.0.0-py3.10.egg-info
+[2.093s] running install_scripts
+[2.120s] writing list of installed files to '/home/mscrobotics2425laptop4/interbotix_ws/build/leo_launch/install.log'
+[2.159s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/src/leo_launch' returned '0': PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/build/leo_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/interbotix_ws/install/leo_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/leo_launch build --build-base /home/mscrobotics2425laptop4/interbotix_ws/build/leo_launch/build install --record /home/mscrobotics2425laptop4/interbotix_ws/build/leo_launch/install.log --single-version-externally-managed install_data

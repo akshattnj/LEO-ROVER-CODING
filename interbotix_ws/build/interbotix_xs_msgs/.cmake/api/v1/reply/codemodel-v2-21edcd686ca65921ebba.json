@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e702a59047d34b8ae843.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "interbotix_xs_msgs__py",
+					"jsonFile" : "directory-interbotix_xs_msgs__py-447926cc73078cdb4133.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_msgs/interbotix_xs_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "interbotix_xs_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_interbotix_xs_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_interbotix_xs_msgs_egg-0dcb9072d906768e933d.json",
+					"name" : "ament_cmake_python_build_interbotix_xs_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_interbotix_xs_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_interbotix_xs_msgs-6e863aae7d764246550a.json",
+					"name" : "ament_cmake_python_copy_interbotix_xs_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs-29bcbe4a2d786be18208.json",
+					"name" : "interbotix_xs_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__cpp-d56fd29c1a1f1f8fe32b.json",
+					"name" : "interbotix_xs_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "interbotix_xs_msgs__py::@23a18c77f2c2765a2517",
+					"jsonFile" : "target-interbotix_xs_msgs__py-0445696758004d5c5eab.json",
+					"name" : "interbotix_xs_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_generator_c-377741dbf556d463d1bc.json",
+					"name" : "interbotix_xs_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_generator_py-9948026ccc8b80c78551.json",
+					"name" : "interbotix_xs_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_c-4e6cd3238216bfd9092c.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_c__pyext-01fbd7c10736f8abe9e9.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_cpp-553b54f319582d7d1bb6.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_fastrtps_c-2586b12918f778d230bb.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext-20a31d3abd1f407fff1d.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp-dd66f9c5fba3df96e9a4.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_introspection_c-414a9936d42a4821ed0f.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext-dc14283ac9a3e4e002a6.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs__rosidl_typesupport_introspection_cpp-32100f0df309ed1b0649.json",
+					"name" : "interbotix_xs_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xs_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xs_msgs_uninstall-bcef62d098be73395469.json",
+					"name" : "interbotix_xs_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6a3e77bd291d665cbf67.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_xs_msgs",
+		"source" : "/home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

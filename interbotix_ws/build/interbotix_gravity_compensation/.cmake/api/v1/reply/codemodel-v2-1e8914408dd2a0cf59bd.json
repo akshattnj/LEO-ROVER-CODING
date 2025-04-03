@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9c27bb3b0d4c5a0e70b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "interbotix_gravity_compensation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_gravity_compensation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_gravity_compensation-4e54ad7e65ebaeafb364.json",
+					"name" : "interbotix_gravity_compensation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_gravity_compensation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_gravity_compensation_uninstall-2454797aef667106b716.json",
+					"name" : "interbotix_gravity_compensation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7ec24f3d39f5f00257cf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_gravity_compensation",
+		"source" : "/home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

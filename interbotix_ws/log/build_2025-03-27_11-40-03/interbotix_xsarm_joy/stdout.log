@@ -1,0 +1,23 @@
+[100%] Built target xsarm_joy
+-- Install configuration: ""
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/lib/interbotix_xsarm_joy/xsarm_joy
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/lib/interbotix_xsarm_joy/xsarm_robot.py
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy//config
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy//config/modes.yaml
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy//launch
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy//launch/xsarm_joy.launch.py
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/ament_index/resource_index/package_run_dependencies/interbotix_xsarm_joy
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/ament_index/resource_index/parent_prefix_path/interbotix_xsarm_joy
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/environment/path.sh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/environment/path.dsv
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/local_setup.bash
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/local_setup.sh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/local_setup.zsh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/local_setup.dsv
+-- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/package.dsv
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/ament_index/resource_index/packages/interbotix_xsarm_joy
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joyConfig.cmake
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joyConfig-version.cmake
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xsarm_joy/share/interbotix_xsarm_joy/package.xml

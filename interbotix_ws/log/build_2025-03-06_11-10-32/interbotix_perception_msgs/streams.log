@@ -1,0 +1,23 @@
+[0.319s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop4/interbotix_ws/install/ros_cv_messages:/home/mscrobotics2425laptop4/interbotix_ws/install/leo_realsense:/home/mscrobotics2425laptop4/interbotix_ws/install/leo_manipulator:/home/mscrobotics2425laptop4/interbotix_ws/install/leo_main:/home/mscrobotics2425laptop4/interbotix_ws/install/leo_launch:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_perception_msgs -- -j12 -l12
+[0.400s] [  1%] Built target interbotix_perception_msgs__cpp
+[0.408s] [  1%] Built target ament_cmake_python_copy_interbotix_perception_msgs
+[0.425s] [ 12%] Built target interbotix_perception_msgs__rosidl_generator_c
+[0.472s] [ 23%] Built target interbotix_perception_msgs__rosidl_typesupport_cpp
+[0.475s] [ 34%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_cpp
+[0.484s] [ 45%] Built target interbotix_perception_msgs__rosidl_typesupport_c
+[0.487s] [ 56%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[0.492s] [ 67%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_c
+[0.498s] [ 78%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_c
+[0.526s] [ 78%] Built target interbotix_perception_msgs
+[0.555s] [ 80%] Built target interbotix_perception_msgs__py
+[0.583s] [ 89%] Built target interbotix_perception_msgs__rosidl_generator_py
+[0.636s] [ 92%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_c__pyext
+[0.637s] [ 96%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.641s] [100%] Built target interbotix_perception_msgs__rosidl_typesupport_c__pyext
+[0.726s] running egg_info
+[0.727s] writing interbotix_perception_msgs.egg-info/PKG-INFO
+[0.727s] writing dependency_links to interbotix_perception_msgs.egg-info/dependency_links.txt
+[0.727s] writing top-level names to interbotix_perception_msgs.egg-info/top_level.txt
+[0.729s] reading manifest file 'interbotix_perception_msgs.egg-info/SOURCES.txt'
+[0.729s] writing manifest file 'interbotix_perception_msgs.egg-info/SOURCES.txt'
+[0.759s] [100%] Built target ament_cmake_python_build_interbotix_perception_msgs_egg

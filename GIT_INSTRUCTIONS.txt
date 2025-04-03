@@ -1,0 +1,11 @@
+git pull
+
+
+MAKE CHANGES HERE
+
+
+git add *
+
+git commit -m "meaningful message"
+
+git push

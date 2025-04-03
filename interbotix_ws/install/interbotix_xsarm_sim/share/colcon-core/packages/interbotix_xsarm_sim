@@ -1,0 +1,1 @@
+controller_manager:effort_controllers:gazebo_ros:gazebo_ros2_control:interbotix_common_sim:interbotix_xs_modules:interbotix_xs_ros_control:interbotix_xsarm_descriptions:joint_trajectory_controller

@@ -1,0 +1,18 @@
+[100%] Built target pointcloud_pipeline
+-- Install configuration: ""
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/lib/interbotix_perception_pipelines/pointcloud_pipeline
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/package_run_dependencies/interbotix_perception_pipelines
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/parent_prefix_path/interbotix_perception_pipelines
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.sh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.dsv
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.bash
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.sh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.zsh
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.dsv
+-- Installing: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.dsv
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/packages/interbotix_perception_pipelines
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig.cmake
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig-version.cmake
+-- Up-to-date: /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.xml

@@ -1,0 +1,20 @@
+[1.307s] Invoking command in '/home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules': PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/interbotix_common_modules build --build-base /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_common_modules/build install --record /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_common_modules/install.log --single-version-externally-managed install_data
+[1.663s] running egg_info
+[1.664s] writing ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/PKG-INFO
+[1.664s] writing dependency_links to ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/dependency_links.txt
+[1.664s] writing entry points to ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/entry_points.txt
+[1.664s] writing requirements to ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/requires.txt
+[1.665s] writing top-level names to ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/top_level.txt
+[1.667s] reading manifest file '../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[1.668s] writing manifest file '../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[1.668s] running build
+[1.668s] running build_py
+[1.672s] running install
+[1.672s] running install_lib
+[1.674s] running install_data
+[1.674s] running install_egg_info
+[1.677s] removing '/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules-0.0.0-py3.10.egg-info' (and everything under it)
+[1.679s] Copying ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info to /home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules-0.0.0-py3.10.egg-info
+[1.681s] running install_scripts
+[1.706s] writing list of installed files to '/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_common_modules/install.log'
+[1.744s] Invoked command in '/home/mscrobotics2425laptop4/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules' returned '0': PYTHONPATH=/home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/interbotix_common_modules build --build-base /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_common_modules/build install --record /home/mscrobotics2425laptop4/interbotix_ws/build/interbotix_common_modules/install.log --single-version-externally-managed install_data
