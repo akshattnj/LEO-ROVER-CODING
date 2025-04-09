@@ -1,0 +1,31 @@
+running egg_info
+creating ../../../build/leo_launcher/leo_launcher.egg-info
+writing ../../../build/leo_launcher/leo_launcher.egg-info/PKG-INFO
+writing dependency_links to ../../../build/leo_launcher/leo_launcher.egg-info/dependency_links.txt
+writing entry points to ../../../build/leo_launcher/leo_launcher.egg-info/entry_points.txt
+writing requirements to ../../../build/leo_launcher/leo_launcher.egg-info/requires.txt
+writing top-level names to ../../../build/leo_launcher/leo_launcher.egg-info/top_level.txt
+writing manifest file '../../../build/leo_launcher/leo_launcher.egg-info/SOURCES.txt'
+reading manifest file '../../../build/leo_launcher/leo_launcher.egg-info/SOURCES.txt'
+writing manifest file '../../../build/leo_launcher/leo_launcher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launcher/build
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launcher/build/lib
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launcher/build/lib/leo_launcher
+copying leo_launcher/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launcher/build/lib/leo_launcher
+running install
+running install_lib
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/lib/python3.10/site-packages/leo_launcher
+copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launcher/build/lib/leo_launcher/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/lib/python3.10/site-packages/leo_launcher
+byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/lib/python3.10/site-packages/leo_launcher/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/share/ament_index
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/share/ament_index/resource_index
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/share/ament_index/resource_index/packages
+copying resource/leo_launcher -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/share/ament_index/resource_index/packages
+copying package.xml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/share/leo_launcher
+running install_egg_info
+Copying ../../../build/leo_launcher/leo_launcher.egg-info to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launcher/lib/python3.10/site-packages/leo_launcher-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launcher/install.log'

@@ -1,0 +1,48 @@
+running egg_info
+creating ../../../build/nav_final/nav_final.egg-info
+writing ../../../build/nav_final/nav_final.egg-info/PKG-INFO
+writing dependency_links to ../../../build/nav_final/nav_final.egg-info/dependency_links.txt
+writing entry points to ../../../build/nav_final/nav_final.egg-info/entry_points.txt
+writing requirements to ../../../build/nav_final/nav_final.egg-info/requires.txt
+writing top-level names to ../../../build/nav_final/nav_final.egg-info/top_level.txt
+writing manifest file '../../../build/nav_final/nav_final.egg-info/SOURCES.txt'
+reading manifest file '../../../build/nav_final/nav_final.egg-info/SOURCES.txt'
+writing manifest file '../../../build/nav_final/nav_final.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib/nav_final
+copying nav_final/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib/nav_final
+running install
+running install_lib
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final
+copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib/nav_final/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final
+byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index/resource_index
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index/resource_index/packages
+copying resource/nav_final -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index/resource_index/packages
+copying package.xml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+copying launch/main_nav.launch.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+copying launch/model_nav.launch.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+copying launch/full_model_nav.launch.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/urdf
+copying urdf/laser.urdf.xacro -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/urdf
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/rviz
+copying rviz/robot.rviz -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/rviz
+copying rviz/view_model.rviz -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/rviz
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/worlds
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+copying config/ekf.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+copying config/controller.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+copying config/imu_filter.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+copying config/planner.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+copying config/bt_nav.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/maps
+running install_egg_info
+Copying ../../../build/nav_final/nav_final.egg-info to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/install.log'

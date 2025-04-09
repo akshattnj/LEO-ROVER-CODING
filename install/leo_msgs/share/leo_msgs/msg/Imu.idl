@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from leo_msgs/msg/Imu.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module leo_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message holds the data retrieved from an Accel/Gyro+Temp IMU sensor" "\n"
+      "" "\n"
+      "The temperature field represents the temperature reported by the sensor in Degrees Celcius" "\n"
+      "The gyro_* fields represent the rotational velocity in rad/s" "\n"
+      "The accel_* fields represent the linear acceleration in m/s^2")
+    struct Imu {
+      builtin_interfaces::msg::Time stamp;
+
+      float temperature;
+
+      float gyro_x;
+
+      float gyro_y;
+
+      float gyro_z;
+
+      float accel_x;
+
+      float accel_y;
+
+      float accel_z;
+    };
+  };
+};

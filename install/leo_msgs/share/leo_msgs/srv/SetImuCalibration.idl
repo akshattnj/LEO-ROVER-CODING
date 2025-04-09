@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from leo_msgs/srv/SetImuCalibration.srv
+// generated code does not contain a copyright notice
+
+
+module leo_msgs {
+  module srv {
+    struct SetImuCalibration_Request {
+      double gyro_bias_x;
+
+      double gyro_bias_y;
+
+      double gyro_bias_z;
+    };
+    struct SetImuCalibration_Response {
+      boolean success;
+    };
+  };
+};

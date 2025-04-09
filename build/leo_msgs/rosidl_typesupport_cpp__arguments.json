@@ -1,0 +1,31 @@
+{
+  "package_name": "leo_msgs",
+  "output_dir": "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_typesupport_cpp/leo_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs:msg/Imu.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs:msg/WheelOdom.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs:msg/WheelOdomMecanum.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs:msg/WheelStates.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs:srv/SetImuCalibration.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs/msg/Imu.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs/msg/WheelOdom.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs/msg/WheelOdomMecanum.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs/msg/WheelStates.idl",
+    "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_msgs/rosidl_adapter/leo_msgs/srv/SetImuCalibration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

@@ -1,3 +1,0 @@
-[console_scripts]
-realsense_node = leo_realsense.realsense_node:main
-

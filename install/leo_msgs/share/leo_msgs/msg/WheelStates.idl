@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from leo_msgs/msg/WheelStates.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module leo_msgs {
+  module msg {
+    typedef float float__4[4];
+    @verbatim (language="comment", text=
+      "This message describes the states of the wheels in Leo Rover" "\n"
+      "" "\n"
+      "The state of each wheel is defined by:" "\n"
+      " * the position of the wheel (rad)," "\n"
+      " * the velocity of the wheel (rad/s)" "\n"
+      " * the torque that is applied in the wheel (Nm)" "\n"
+      " * the PWM Duty cycle (%)" "\n"
+      "" "\n"
+      "The stamp specifies the time at which the wheel states were recorded." "\n"
+      "" "\n"
+      "This message consists of a multiple arrays, one for each part of the wheel state." "\n"
+      "The order of the wheels in each array is: FL, RL, FR, RR")
+    struct WheelStates {
+      builtin_interfaces::msg::Time stamp;
+
+      float__4 position;
+
+      float__4 velocity;
+
+      float__4 torque;
+
+      float__4 pwm_duty_cycle;
+    };
+  };
+};

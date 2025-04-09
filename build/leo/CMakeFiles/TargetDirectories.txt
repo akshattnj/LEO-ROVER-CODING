@@ -1,0 +1,8 @@
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/uninstall.dir
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/leo_uninstall.dir
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/test.dir
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/edit_cache.dir
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/rebuild_cache.dir
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/list_install_components.dir
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/install.dir
+/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo/CMakeFiles/install/local.dir

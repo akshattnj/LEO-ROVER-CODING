@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from leo_msgs/msg/WheelOdom.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module leo_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message represents the pose and velocity of a differential wheeled robot, estimated from the wheel encoders." "\n"
+      "" "\n"
+      "The velocity_* fields represent the linear and angular velocity of the robot." "\n"
+      "The pose_* fields represent the x, y and yaw pose of the robot w.r.t. the starting pose." "\n"
+      "" "\n"
+      "The coordinate frame that represents the robot is located at the center of rotation.")
+    struct WheelOdom {
+      builtin_interfaces::msg::Time stamp;
+
+      float velocity_lin;
+
+      float velocity_ang;
+
+      float pose_x;
+
+      float pose_y;
+
+      float pose_yaw;
+    };
+  };
+};

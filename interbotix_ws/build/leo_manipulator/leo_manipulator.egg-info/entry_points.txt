@@ -1,3 +1,0 @@
-[console_scripts]
-manipulator_node = leo_manipulator.manipulator_node:main
-

@@ -1,3 +1,0 @@
-[console_scripts]
-ros_cv_messages = ros_cv_messages.ros_cv_messages:main
-
