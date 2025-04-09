@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/ros_cv_messages/ros_cv_messages.egg-info
+writing ../../../build/ros_cv_messages/ros_cv_messages.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros_cv_messages/ros_cv_messages.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros_cv_messages/ros_cv_messages.egg-info/entry_points.txt
+writing requirements to ../../../build/ros_cv_messages/ros_cv_messages.egg-info/requires.txt
+writing top-level names to ../../../build/ros_cv_messages/ros_cv_messages.egg-info/top_level.txt
+writing manifest file '../../../build/ros_cv_messages/ros_cv_messages.egg-info/SOURCES.txt'
+reading manifest file '../../../build/ros_cv_messages/ros_cv_messages.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros_cv_messages/ros_cv_messages.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/build
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/build/lib
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/build/lib/ros_cv_messages
+copying ros_cv_messages/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/build/lib/ros_cv_messages
+copying ros_cv_messages/ros_cv_messages.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/build/lib/ros_cv_messages
+running install
+running install_lib
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/lib/python3.10/site-packages/ros_cv_messages
+copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/build/lib/ros_cv_messages/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/lib/python3.10/site-packages/ros_cv_messages
+copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/build/lib/ros_cv_messages/ros_cv_messages.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/lib/python3.10/site-packages/ros_cv_messages
+byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/lib/python3.10/site-packages/ros_cv_messages/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/lib/python3.10/site-packages/ros_cv_messages/ros_cv_messages.py to ros_cv_messages.cpython-310.pyc
+running install_data
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/share/ament_index
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/share/ament_index/resource_index
+creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/share/ament_index/resource_index/packages
+copying resource/ros_cv_messages -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/share/ament_index/resource_index/packages
+copying package.xml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/share/ros_cv_messages
+running install_egg_info
+Copying ../../../build/ros_cv_messages/ros_cv_messages.egg-info to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/lib/python3.10/site-packages/ros_cv_messages-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ros_cv_messages script to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/ros_cv_messages/lib/ros_cv_messages
+writing list of installed files to '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/ros_cv_messages/install.log'

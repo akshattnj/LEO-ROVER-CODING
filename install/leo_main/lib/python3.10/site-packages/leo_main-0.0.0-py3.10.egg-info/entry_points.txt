@@ -1,0 +1,3 @@
+[console_scripts]
+central_node = leo_main.central_node:main
+

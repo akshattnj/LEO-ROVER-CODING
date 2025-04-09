@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-335aaba637cce7422e61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "leo_with_interfaces__py",
+					"jsonFile" : "directory-leo_with_interfaces__py-ddefb2831d4a45d42eed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_with_interfaces/leo_with_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "leo_with_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_leo_with_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_leo_with_interfaces_egg-f0547d8bebb3954dd6ef.json",
+					"name" : "ament_cmake_python_build_leo_with_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_leo_with_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_leo_with_interfaces-daed4ae4f67c48caf60f.json",
+					"name" : "ament_cmake_python_copy_leo_with_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces-ca37fc2ace0be42b802b.json",
+					"name" : "leo_with_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__cpp-371a82485265d17a9df4.json",
+					"name" : "leo_with_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "leo_with_interfaces__py::@55f9fc8f6b22cfaf9956",
+					"jsonFile" : "target-leo_with_interfaces__py-c97b0cb49d962b8bd3d3.json",
+					"name" : "leo_with_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_generator_c-50492b31f15a4345e2f9.json",
+					"name" : "leo_with_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_generator_py-69f614619d0563d34116.json",
+					"name" : "leo_with_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_c-502fbe962b0845f51e76.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_c__pyext-1de9e20da32db68e81ac.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_cpp-dd0bf049149f0ea86d98.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_fastrtps_c-a9699f8d0da351fd823a.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_fastrtps_c__pyext-ceb8905ad2b738763e37.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_fastrtps_cpp-a21aa31fbff0ff8e61ed.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_introspection_c-05781173da3dc5185704.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_introspection_c__pyext-14d023c10fc5e31a8e43.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces__rosidl_typesupport_introspection_cpp-28f8d537d8e6fba55ff1.json",
+					"name" : "leo_with_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leo_with_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leo_with_interfaces_uninstall-7166bf8dd782ab8c06ff.json",
+					"name" : "leo_with_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6f7838e61499d0eb139b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_with_interfaces",
+		"source" : "/home/mscrobotics2425laptop4/LEO-ROVER-CODING/interbotix_ws/src/leo_with_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

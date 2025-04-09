@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/mscrobotics2425laptop4/LEO-ROVER-CODING/interbotix_ws/build/moveit_visual_tools/CMakeCache.txt is different than the directory /home/mscrobotics2425laptop4/interbotix_ws/build/moveit_visual_tools where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/mscrobotics2425laptop4/interbotix_ws/src/moveit_visual_tools" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:362: cmake_check_build_system] Error 1

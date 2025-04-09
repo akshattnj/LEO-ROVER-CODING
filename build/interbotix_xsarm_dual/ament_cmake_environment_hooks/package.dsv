@@ -1,0 +1,4 @@
+source;share/interbotix_xsarm_dual/local_setup.bash
+source;share/interbotix_xsarm_dual/local_setup.dsv
+source;share/interbotix_xsarm_dual/local_setup.sh
+source;share/interbotix_xsarm_dual/local_setup.zsh
