@@ -1,0 +1,35 @@
+[1.936s] Invoking command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/interbotix_ws/src/leo_launch': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/leo_launch build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/install.log --single-version-externally-managed install_data
+[8.209s] running egg_info
+[8.209s] creating ../../../build/leo_launch/leo_launch.egg-info
+[8.209s] writing ../../../build/leo_launch/leo_launch.egg-info/PKG-INFO
+[8.209s] writing dependency_links to ../../../build/leo_launch/leo_launch.egg-info/dependency_links.txt
+[8.209s] writing entry points to ../../../build/leo_launch/leo_launch.egg-info/entry_points.txt
+[8.209s] writing requirements to ../../../build/leo_launch/leo_launch.egg-info/requires.txt
+[8.209s] writing top-level names to ../../../build/leo_launch/leo_launch.egg-info/top_level.txt
+[8.209s] writing manifest file '../../../build/leo_launch/leo_launch.egg-info/SOURCES.txt'
+[8.210s] reading manifest file '../../../build/leo_launch/leo_launch.egg-info/SOURCES.txt'
+[8.210s] writing manifest file '../../../build/leo_launch/leo_launch.egg-info/SOURCES.txt'
+[8.210s] running build
+[8.210s] running build_py
+[8.210s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/build
+[8.210s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/build/lib
+[8.210s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/build/lib/leo_launch
+[8.210s] copying leo_launch/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/build/lib/leo_launch
+[8.210s] running install
+[8.210s] running install_lib
+[8.210s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/lib/python3.10/site-packages/leo_launch
+[8.210s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/build/lib/leo_launch/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/lib/python3.10/site-packages/leo_launch
+[8.210s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/lib/python3.10/site-packages/leo_launch/__init__.py to __init__.cpython-310.pyc
+[8.211s] running install_data
+[8.211s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/share/ament_index
+[8.211s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/share/ament_index/resource_index
+[8.211s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/share/ament_index/resource_index/packages
+[8.211s] copying resource/leo_launch -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/share/ament_index/resource_index/packages
+[8.211s] copying package.xml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/share/leo_launch
+[8.211s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/share/leo_launch/launch
+[8.211s] copying launch/leo_startup.launch.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/share/leo_launch/launch
+[8.211s] running install_egg_info
+[8.211s] Copying ../../../build/leo_launch/leo_launch.egg-info to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/lib/python3.10/site-packages/leo_launch-0.0.0-py3.10.egg-info
+[8.211s] running install_scripts
+[8.211s] writing list of installed files to '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/install.log'
+[8.236s] Invoked command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/interbotix_ws/src/leo_launch' returned '0': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/leo_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/leo_launch build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/leo_launch/install.log --single-version-externally-managed install_data

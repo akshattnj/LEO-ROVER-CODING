@@ -1,0 +1,50 @@
+[2.058s] Invoking command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/Final_nav/src/nav_final': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav_final build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/install.log --single-version-externally-managed install_data
+[8.157s] running egg_info
+[8.157s] creating ../../../build/nav_final/nav_final.egg-info
+[8.157s] writing ../../../build/nav_final/nav_final.egg-info/PKG-INFO
+[8.157s] writing dependency_links to ../../../build/nav_final/nav_final.egg-info/dependency_links.txt
+[8.157s] writing entry points to ../../../build/nav_final/nav_final.egg-info/entry_points.txt
+[8.157s] writing requirements to ../../../build/nav_final/nav_final.egg-info/requires.txt
+[8.157s] writing top-level names to ../../../build/nav_final/nav_final.egg-info/top_level.txt
+[8.157s] writing manifest file '../../../build/nav_final/nav_final.egg-info/SOURCES.txt'
+[8.157s] reading manifest file '../../../build/nav_final/nav_final.egg-info/SOURCES.txt'
+[8.163s] writing manifest file '../../../build/nav_final/nav_final.egg-info/SOURCES.txt'
+[8.163s] running build
+[8.163s] running build_py
+[8.163s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build
+[8.163s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib
+[8.163s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib/nav_final
+[8.163s] copying nav_final/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib/nav_final
+[8.163s] running install
+[8.163s] running install_lib
+[8.163s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final
+[8.163s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build/lib/nav_final/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final
+[8.164s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final/__init__.py to __init__.cpython-310.pyc
+[8.164s] running install_data
+[8.164s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index
+[8.164s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index/resource_index
+[8.164s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index/resource_index/packages
+[8.164s] copying resource/nav_final -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/ament_index/resource_index/packages
+[8.164s] copying package.xml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final
+[8.164s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+[8.164s] copying launch/main_nav.launch.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+[8.164s] copying launch/model_nav.launch.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+[8.164s] copying launch/full_model_nav.launch.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/launch
+[8.164s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/urdf
+[8.164s] copying urdf/laser.urdf.xacro -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/urdf
+[8.165s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/rviz
+[8.165s] copying rviz/robot.rviz -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/rviz
+[8.165s] copying rviz/view_model.rviz -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/rviz
+[8.165s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/worlds
+[8.165s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+[8.165s] copying config/ekf.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+[8.165s] copying config/controller.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+[8.165s] copying config/imu_filter.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+[8.165s] copying config/planner.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+[8.165s] copying config/bt_nav.yaml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/config
+[8.165s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/share/nav_final/maps
+[8.165s] running install_egg_info
+[8.165s] Copying ../../../build/nav_final/nav_final.egg-info to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages/nav_final-0.0.0-py3.10.egg-info
+[8.165s] running install_scripts
+[8.180s] writing list of installed files to '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/install.log'
+[8.282s] Invoked command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/Final_nav/src/nav_final' returned '0': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/nav_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav_final build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/nav_final/install.log --single-version-externally-managed install_data

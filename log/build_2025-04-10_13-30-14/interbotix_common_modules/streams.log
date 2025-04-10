@@ -1,0 +1,71 @@
+[1.197s] Invoking command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/interbotix_common_modules build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/install.log --single-version-externally-managed install_data
+[2.327s] running egg_info
+[2.329s] creating ../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info
+[2.329s] writing ../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/PKG-INFO
+[2.330s] writing dependency_links to ../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/dependency_links.txt
+[2.330s] writing entry points to ../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/entry_points.txt
+[2.330s] writing requirements to ../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/requires.txt
+[2.330s] writing top-level names to ../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/top_level.txt
+[2.330s] writing manifest file '../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[2.330s] reading manifest file '../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[2.330s] writing manifest file '../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[2.330s] running build
+[2.330s] running build_py
+[2.330s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build
+[2.330s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib
+[2.330s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules
+[2.330s] copying interbotix_common_modules/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules
+[2.330s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[2.330s] copying interbotix_common_modules/common_robot/robot.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[2.331s] copying interbotix_common_modules/common_robot/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[2.331s] copying interbotix_common_modules/common_robot/exceptions.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[2.331s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[2.331s] copying interbotix_common_modules/angle_manipulation/angle_manipulation.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[2.331s] copying interbotix_common_modules/angle_manipulation/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[2.331s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[2.331s] copying interbotix_common_modules/py_common/params.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[2.331s] copying interbotix_common_modules/py_common/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[2.331s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[2.331s] copying interbotix_common_modules/launch/or_condition.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[2.331s] copying interbotix_common_modules/launch/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[2.331s] copying interbotix_common_modules/launch/and_condition.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[2.331s] running install
+[2.332s] running install_lib
+[2.332s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules
+[2.332s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/robot.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/exceptions.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[2.332s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation/angle_manipulation.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules
+[2.332s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common/params.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[2.332s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[2.333s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[2.333s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/or_condition.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[2.333s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/__init__.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[2.333s] copying /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/and_condition.py -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[2.333s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/robot.py to robot.cpython-310.pyc
+[2.333s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/__init__.py to __init__.cpython-310.pyc
+[2.333s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/exceptions.py to exceptions.cpython-310.pyc
+[2.333s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation/angle_manipulation.py to angle_manipulation.cpython-310.pyc
+[2.334s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation/__init__.py to __init__.cpython-310.pyc
+[2.334s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/__init__.py to __init__.cpython-310.pyc
+[2.334s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common/params.py to params.cpython-310.pyc
+[2.334s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common/__init__.py to __init__.cpython-310.pyc
+[2.334s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/or_condition.py to or_condition.cpython-310.pyc
+[2.334s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/__init__.py to __init__.cpython-310.pyc
+[2.334s] byte-compiling /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/and_condition.py to and_condition.cpython-310.pyc
+[2.334s] running install_data
+[2.334s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/share/ament_index
+[2.334s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/share/ament_index/resource_index
+[2.334s] creating /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[2.335s] copying resource/interbotix_common_modules -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[2.335s] copying package.xml -> /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/share/interbotix_common_modules
+[2.335s] running install_egg_info
+[2.335s] Copying ../../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules-0.0.0-py3.10.egg-info
+[2.335s] running install_scripts
+[2.335s] writing list of installed files to '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/install.log'
+[2.337s] Invoked command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules' returned '0': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/interbotix_common_modules build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_common_modules/install.log --single-version-externally-managed install_data

@@ -175,7 +175,6 @@ CMakeFiles/interbotix_perception_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/interbotix_perception_msgs.dir
 
 # All Build rule for target.
-CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_cpp.dir/all
 CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__rosidl_generator_c.dir/all
 CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_c.dir/all
@@ -183,6 +182,7 @@ CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_
 CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__cpp.dir/all
 CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_cpp.dir/all
+CMakeFiles/interbotix_perception_msgs.dir/all: CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interbotix_perception_msgs.dir/build.make CMakeFiles/interbotix_perception_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interbotix_perception_msgs.dir/build.make CMakeFiles/interbotix_perception_msgs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/interbotix_perception_msgs/CMakeFiles --progress-num= "Built target interbotix_perception_msgs"

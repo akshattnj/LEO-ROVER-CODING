@@ -54,7 +54,7 @@ class CentralNode(Node):
 
             qos_profile=1)
         
-        self.manipulator_position_publisher = self.create_publisher(
+        self.exploration_control_publisher = self.create_publisher(
 
             msg_type=Bool,
 
