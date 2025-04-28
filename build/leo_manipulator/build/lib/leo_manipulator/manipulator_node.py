@@ -76,7 +76,7 @@ class ManipulatorNode(Node):
             self.bot.arm.set_ee_pose_components(msg.data[0], msg.data[1], msg.data[2], 0, 3.1415962/4)
             self.bot.gripper.grasp(2.0)
             self.bot.arm.go_to_home_pose()
-            self.bot.arm.set_ee_pose_components(-0.2, 0.0, 0.1)
+            self.bot.arm.set_ee_pose_components(-0.25, 0.0, 0.05, 0, 3.1415962/8)
             self.bot.gripper.release(2.0)
             self.bot.arm.go_to_sleep_pose()
             self.manipulator_response_publisher.publish(response_msg)

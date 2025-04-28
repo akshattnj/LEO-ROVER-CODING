@@ -11,6 +11,7 @@
   <depend>interbotix_common_modules</depend>
   <depend>interbotix_xs_modules</depend>
   <depend>leo_with_interfaces</depend>
+  <depend>geometry_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

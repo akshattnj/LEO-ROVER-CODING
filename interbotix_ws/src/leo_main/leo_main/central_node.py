@@ -10,6 +10,8 @@ from std_msgs.msg import Float64MultiArray
 
 from std_msgs.msg import Bool
 
+from geometry_msgs.msg import Twist
+
 """
         Before running this node, run: 
 
@@ -62,11 +64,11 @@ class CentralNode(Node):
 
             qos_profile=1)
 
-        self.toggle_resume_publisher = self.create_publisher(
+        self.direct_wheel_control_publisher = self.create_publisher(
 
-            msg_type=Bool,
+            msg_type=Twist,
 
-            topic='/explore/resume',
+            topic='/cmd_vel',
 
             qos_profile=1)
         
@@ -131,12 +133,59 @@ class CentralNode(Node):
         
 
         transformed_msg.data = [x_pos, y_pos, z_pos]
-        if self.state == "IDLE":
-            self.get_logger().info(f"""Data sending to manipulator: {(transformed_msg.data)}""")
-            self.manipulator_position_publisher.publish(transformed_msg)
-            self.state == "ACTIVE"
+
+        upper_y_limit = 0.05
+        lower_y_limit = -0.05
+        upper_x_limit = 0.25
+        lower_x_limit = 0.20
+
+        wheel_control_msg = Twist()
+        wheel_control_msg.linear.x = 0.0
+        wheel_control_msg.linear.y = 0.0
+        wheel_control_msg.linear.z = 0.0
+        wheel_control_msg.angular.x = 0.0
+        wheel_control_msg.angular.y = 0.0
+        wheel_control_msg.angular.z = 0.0
+
+        if (y_pos > lower_y_limit) and (y_pos < upper_y_limit) and (self.state == "IDLE"):
+            
+            if (x_pos > lower_x_limit) and (x_pos < upper_x_limit):
+                if self.state == "IDLE":
+                    self.get_logger().info(f"""Data sending to manipulator: {(transformed_msg.data)}""")
+                    self.manipulator_position_publisher.publish(transformed_msg)
+                    self.state == "ACTIVE"
+                elif x_pos < lower_x_limit:
+                    wheel_control_msg.linear.x = -0.1
+                    wheel_control_msg.angular.z = 0.0
+                    self.direct_wheel_control_publisher.publish(wheel_control_msg)
+                elif x_pos > upper_x_limit:
+                    wheel_control_msg.linear.x = 0.1
+                    wheel_control_msg.angular.z = 0.0
+                    self.direct_wheel_control_publisher.publish(wheel_control_msg)
+                else:
+                    pass
+
+        elif ((y_pos < lower_y_limit) or (y_pos > upper_y_limit)) and (self.state == "IDLE"):
+            wheel_control_msg = Twist()
+            wheel_control_msg.linear.x = 0.0
+            if y_pos < lower_y_limit:
+                wheel_control_msg.angular.z = 0.25
+            elif y_pos > upper_y_limit:
+                wheel_control_msg.angular.z = -0.25
+            else:
+                wheel_control_msg.angular.z = 0.0
+            self.direct_wheel_control_publisher.publish(wheel_control_msg)
+        
         else:
             pass
+
+        # if self.state == "IDLE":
+        #     self.get_logger().info(f"""Data sending to manipulator: {(transformed_msg.data)}""")
+        #     self.manipulator_position_publisher.publish(transformed_msg)
+        #     self.state == "ACTIVE"
+        # else:
+        #     pass
+        
 
 
 def main(args=None):
