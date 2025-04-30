@@ -14,6 +14,9 @@ def get_hsv_bounds(hsv_samples, num_clusters=3):
     kmeans.fit(hsv_samples)
     labels = kmeans.labels_
 
+#
+# 'blue': [((99, 238, 113), (102, 255, 153)), ((98, 207, 66), (102, 255, 113)), ((97, 208, 154), (101, 255, 209))],    # Get the cluster centers
+
     hsv_ranges = []
     for i in range(num_clusters):
         cluster_points = hsv_samples[labels == i]
@@ -22,7 +25,7 @@ def get_hsv_bounds(hsv_samples, num_clusters=3):
         hsv_ranges.append((tuple(lower_bound.tolist()), tuple(upper_bound.tolist())))
 
     return hsv_ranges
-
+#
 # Configure RealSense pipeline
 pipeline = rs.pipeline()
 config = rs.config()
