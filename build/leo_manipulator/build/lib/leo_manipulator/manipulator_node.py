@@ -49,6 +49,8 @@ class ManipulatorNode(Node):
             topic='/manipulator_response',
 
             qos_profile=1)
+        
+        self.block_count = 0
 
     def reposition_callback(self, msg: Float64MultiArray):
         """Method that is called when a new msg is received by the node."""
@@ -65,21 +67,34 @@ class ManipulatorNode(Node):
 
         """)
 
-        if msg.data[0] == 0.01 and msg.data[1] == 0.0 and msg.data[2] == 0.0:
-            robot_shutdown()
-        else:
-            response_msg = Float64MultiArray()
-            response_msg = msg
+        response_msg = Float64MultiArray()
+        response_msg = msg
+        
 
-            self.bot.arm.go_to_home_pose()
-            #self.bot.arm.set_ee_pose_components(msg.data[0], msg.data[1], msg.data[2])
-            self.bot.arm.set_ee_pose_components(msg.data[0], msg.data[1], msg.data[2], 0, 3.1415962/4)
-            self.bot.gripper.grasp(2.0)
-            self.bot.arm.go_to_home_pose()
-            self.bot.arm.set_ee_pose_components(-0.25, 0.0, 0.05, 0, 3.1415962/8)
-            self.bot.gripper.release(2.0)
-            self.bot.arm.go_to_sleep_pose()
-            self.manipulator_response_publisher.publish(response_msg)
+        self.bot.arm.go_to_home_pose()
+        self.bot.gripper.release(2.0)
+        #self.bot.arm.set_ee_pose_components(msg.data[0], msg.data[1], msg.data[2])
+        self.bot.arm.set_ee_pose_components(msg.data[0], msg.data[1], msg.data[2], 0, 3.1415962/8)
+        self.bot.gripper.grasp(2.0)
+        self.bot.arm.go_to_home_pose()
+        if (msg.data[0] == -0.25) and ((msg.data[1] == -0.05) or (msg.data[1] == 0.0) or (msg.data[1] == 0.05)) and (msg.data[2] == 0.10):
+            self.bot.arm.set_ee_pose_components(0.25, 0.0, 0.10, 0, 3.1415962/8)
+        else:
+            if self.block_count == 0:
+                self.bot.arm.set_ee_pose_components(-0.22, -0.05, 0.13, 0, 3.1415962/8)
+                self.block_count += 1
+            elif self.block_count == 1:
+                self.bot.arm.set_ee_pose_components(-0.22, -0.01, 0.13, 0, 3.1415962/8)
+                self.block_count += 1
+            elif self.block_count == 2:
+                self.bot.arm.set_ee_pose_components(-0.22, 0.05, 0.13, 0, 3.1415962/8)
+                self.block_count += 1
+            else:
+                self.block_count = 0
+
+        self.bot.gripper.release(2.0)
+        self.bot.arm.go_to_sleep_pose()
+        self.manipulator_response_publisher.publish(response_msg)
 
 
 

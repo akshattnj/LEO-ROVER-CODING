@@ -10,6 +10,12 @@ from std_msgs.msg import Float64MultiArray
 
 from std_msgs.msg import Bool
 
+from geometry_msgs.msg import Twist
+
+from interbotix_common_modules.common_robot.robot import robot_startup, robot_shutdown
+
+from interbotix_xs_modules.xs_robot.arm import InterbotixManipulatorXS
+
 """
         Before running this node, run: 
 
@@ -25,6 +31,8 @@ class CentralNode(Node):
         super().__init__('central_node')
 
         self.state = "IDLE"
+
+        self.block_count = 0
 
         self.manipulator_position_publisher = self.create_publisher(
 
@@ -62,13 +70,19 @@ class CentralNode(Node):
 
             qos_profile=1)
 
-        self.toggle_resume_publisher = self.create_publisher(
+        self.direct_wheel_control_publisher = self.create_publisher(
 
-            msg_type=Bool,
+            msg_type=Twist,
 
-            topic='/explore/resume',
+            topic='/cmd_vel',
 
             qos_profile=1)
+        
+        # self.bot = InterbotixManipulatorXS(
+        #     robot_model='px100',
+        #     group_name='arm',
+        #     gripper_name='gripper',
+        # )
         
         
         
@@ -125,18 +139,102 @@ class CentralNode(Node):
 
         transformed_msg = Float64MultiArray()
 
-        x_pos = (msg.data[2] + 0.085)
-        y_pos = (-msg.data[0] + 0.03)
-        z_pos = (msg.data[1] - 0.01)
+        x_pos = (msg.data[2] + 0.12)
+        y_pos = (-msg.data[0] + 0.05)
+        z_pos = (msg.data[1] - 0.05)
         
 
         transformed_msg.data = [x_pos, y_pos, z_pos]
+
+        upper_y_limit = 0.05
+        lower_y_limit = -0.05
+        upper_x_limit = 0.25
+        lower_x_limit = 0.20
+
+        wheel_control_msg = Twist()
+        wheel_control_msg.linear.x = 0.0
+        wheel_control_msg.linear.y = 0.0
+        wheel_control_msg.linear.z = 0.0
+        wheel_control_msg.angular.x = 0.0
+        wheel_control_msg.angular.y = 0.0
+        wheel_control_msg.angular.z = 0.0
+
+        # if (y_pos > lower_y_limit) and (y_pos < upper_y_limit) and (self.state == "IDLE"):
+            
+        #     if (x_pos > lower_x_limit) and (x_pos < upper_x_limit):
+        #         if self.state == "IDLE":
+        #             self.get_logger().info(f"""Data sending to manipulator: {(transformed_msg.data)}""")
+        #             self.manipulator_position_publisher.publish(transformed_msg)
+        #             self.state == "ACTIVE"
+        #         elif x_pos < lower_x_limit:
+        #             wheel_control_msg.linear.x = -0.1
+        #             wheel_control_msg.angular.z = 0.0
+        #             self.direct_wheel_control_publisher.publish(wheel_control_msg)
+        #         elif x_pos > upper_x_limit:
+        #             wheel_control_msg.linear.x = 0.1
+        #             wheel_control_msg.angular.z = 0.0
+        #             self.direct_wheel_control_publisher.publish(wheel_control_msg)
+        #         else:
+        #             pass
+
+        # elif ((y_pos < lower_y_limit) or (y_pos > upper_y_limit)) and (self.state == "IDLE"):
+        #     wheel_control_msg = Twist()
+        #     wheel_control_msg.linear.x = 0.0
+        #     if y_pos < lower_y_limit:
+        #         wheel_control_msg.angular.z = 0.25
+        #     elif y_pos > upper_y_limit:
+        #         wheel_control_msg.angular.z = -0.25
+        #     else:
+        #         wheel_control_msg.angular.z = 0.0
+        #     self.direct_wheel_control_publisher.publish(wheel_control_msg)
+        
+        # else:
+        #     pass
+
         if self.state == "IDLE":
             self.get_logger().info(f"""Data sending to manipulator: {(transformed_msg.data)}""")
             self.manipulator_position_publisher.publish(transformed_msg)
             self.state == "ACTIVE"
         else:
             pass
+
+        #robot_startup()
+        #if (x_pos < 0.25):
+            #robot_shutdown()
+        # if True:
+        #     if self.state == "IDLE":
+        #         if self.block_count < 3:
+        #             self.state = "ACTIVE"
+        #             self.get_logger().info(f"""Data sending to manipulator: {(transformed_msg.data)}""")
+        #             self.manipulator_position_publisher.publish(transformed_msg)
+        #             self.block_count += 1
+        #         elif self.block_count == 3:
+        #             self.state = "ACTIVE"
+        #             self.get_logger().info("""Retrieving block from bucket.""")
+        #             x_pos = -0.25
+        #             y_pos = -0.05
+        #             z_pos = 0.10
+        #             self.block_count += 1
+        #         elif self.block_count == 4:
+        #             self.state = "ACTIVE"
+        #             self.get_logger().info("""Retrieving block from bucket.""")
+        #             x_pos = -0.25
+        #             y_pos = 0.0
+        #             z_pos = 0.10
+        #             self.block_count += 1
+        #         elif self.block_count == 5:
+        #             self.state = "ACTIVE"
+        #             self.get_logger().info("""Retrieving block from bucket.""")
+        #             x_pos = -0.25
+        #             y_pos = 0.05
+        #             z_pos = 0.10
+        #             self.block_count += 1
+        #         else:
+        #             pass
+        #     else:
+        #         pass
+        # else:
+        #     self.get_logger().info("""INVALID DISTANCE: POSITION NOT SENT""")
 
 
 def main(args=None):

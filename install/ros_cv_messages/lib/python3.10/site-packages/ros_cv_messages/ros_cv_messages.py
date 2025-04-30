@@ -105,6 +105,7 @@ class ObjectDetectionNode(Node):
                     position_msg.data = [positions[0][0],positions[0][1], positions[0][2]]
                     if position_msg.data[2] >= 0.15 and position_msg.data[2] <= 0.28:
                         self.position_publisher.publish(position_msg)
+                        cv2.waitKey(1000)
                     else:
                         self.get_logger().info(f"""Position outside of boundaries.""")
 
