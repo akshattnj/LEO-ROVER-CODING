@@ -1,0 +1,6 @@
+source;share/autohsvtune/hook/pythonpath.ps1
+source;share/autohsvtune/hook/pythonpath.dsv
+source;share/autohsvtune/hook/pythonpath.sh
+source;share/autohsvtune/hook/ament_prefix_path.ps1
+source;share/autohsvtune/hook/ament_prefix_path.dsv
+source;share/autohsvtune/hook/ament_prefix_path.sh

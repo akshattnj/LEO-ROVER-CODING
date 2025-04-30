@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/autohsvtune/autohsvtune.egg-info/PKG-INFO
+../build/autohsvtune/autohsvtune.egg-info/SOURCES.txt
+../build/autohsvtune/autohsvtune.egg-info/dependency_links.txt
+../build/autohsvtune/autohsvtune.egg-info/entry_points.txt
+../build/autohsvtune/autohsvtune.egg-info/requires.txt
+../build/autohsvtune/autohsvtune.egg-info/top_level.txt
+../build/autohsvtune/autohsvtune.egg-info/zip-safe
+autohsvtune/__init__.py
+autohsvtune/autohsvtune.py
+resource/autohsvtune
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -11,7 +11,7 @@ from std_msgs.msg import Float64MultiArray
 COLOR_RANGES = {
     'Green': [((35, 100, 100), (85, 255, 255))],
     'Red': [((0, 120, 70), (10, 255, 255)), ((170, 120, 70), (180, 255, 255))],
-    'Blue': [((100, 150, 100), (140, 255, 255))],
+    'Blue': [((99, 238, 113), (102, 255, 153)), ((98, 207, 66), (102, 255, 113)), ((97, 208, 154), (101, 255, 209))],
     'Yellow': [((20, 100, 100), (30, 255, 255))],
     #'Purple': [((105, 119, 39), (137, 195, 112)), ((107, 51, 91), (133, 174, 204)), ((104, 51, 27), (146, 131, 121))]
 }
@@ -105,7 +105,6 @@ class ObjectDetectionNode(Node):
                     position_msg.data = [positions[0][0],positions[0][1], positions[0][2]]
                     if position_msg.data[2] >= 0.15 and position_msg.data[2] <= 0.28:
                         self.position_publisher.publish(position_msg)
-                        cv2.waitKey(1000)
                     else:
                         self.get_logger().info(f"""Position outside of boundaries.""")
 

@@ -1,0 +1,21 @@
+[1.649s] Invoking command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/autohsvtune': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/autohsvtune/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/autohsvtune/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autohsvtune build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/autohsvtune/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/autohsvtune/install.log --single-version-externally-managed install_data
+[1.975s] running egg_info
+[1.976s] writing ../build/autohsvtune/autohsvtune.egg-info/PKG-INFO
+[1.976s] writing dependency_links to ../build/autohsvtune/autohsvtune.egg-info/dependency_links.txt
+[1.976s] writing entry points to ../build/autohsvtune/autohsvtune.egg-info/entry_points.txt
+[1.977s] writing requirements to ../build/autohsvtune/autohsvtune.egg-info/requires.txt
+[1.977s] writing top-level names to ../build/autohsvtune/autohsvtune.egg-info/top_level.txt
+[1.980s] reading manifest file '../build/autohsvtune/autohsvtune.egg-info/SOURCES.txt'
+[1.981s] writing manifest file '../build/autohsvtune/autohsvtune.egg-info/SOURCES.txt'
+[1.981s] running build
+[1.981s] running build_py
+[1.981s] running install
+[1.981s] running install_lib
+[1.983s] running install_data
+[1.984s] running install_egg_info
+[1.986s] removing '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/autohsvtune/lib/python3.10/site-packages/autohsvtune-0.0.0-py3.10.egg-info' (and everything under it)
+[1.988s] Copying ../build/autohsvtune/autohsvtune.egg-info to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/autohsvtune/lib/python3.10/site-packages/autohsvtune-0.0.0-py3.10.egg-info
+[1.988s] running install_scripts
+[2.022s] Installing autohsvtune script to /home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/autohsvtune/lib/autohsvtune
+[2.022s] writing list of installed files to '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/autohsvtune/install.log'
+[2.206s] Invoked command in '/home/mscrobotics2425laptop4/LEO-ROVER-CODING/autohsvtune' returned '0': PYTHONPATH=/home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/autohsvtune/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop4/LEO-ROVER-CODING/install/autohsvtune/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autohsvtune build --build-base /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/autohsvtune/build install --record /home/mscrobotics2425laptop4/LEO-ROVER-CODING/build/autohsvtune/install.log --single-version-externally-managed install_data

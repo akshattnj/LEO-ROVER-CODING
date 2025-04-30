@@ -1,0 +1,3 @@
+[console_scripts]
+autohsvtune = autohsvtune.autohsvtune:main
+
