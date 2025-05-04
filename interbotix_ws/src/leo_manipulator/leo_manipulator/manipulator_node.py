@@ -74,7 +74,7 @@ class ManipulatorNode(Node):
         self.bot.arm.go_to_home_pose()
         self.bot.gripper.release(2.0)
         #self.bot.arm.set_ee_pose_components(msg.data[0], msg.data[1], msg.data[2])
-        self.bot.arm.set_ee_pose_components(msg.data[0], msg.data[1], msg.data[2], 0, 3.1415962/8)
+        self.bot.arm.set_ee_pose_components #(msg.data[0], msg.data[1], msg.data[2], 0, 3.1415962/8)
         self.bot.gripper.grasp(2.0)
         self.bot.arm.go_to_home_pose()
         if (msg.data[0] == -0.25) and ((msg.data[1] == -0.05) or (msg.data[1] == 0.0) or (msg.data[1] == 0.05)) and (msg.data[2] == 0.10):
